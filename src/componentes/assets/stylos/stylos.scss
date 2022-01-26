@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.card-img-top{
+    height: auto;
+  max-width: auto;
+    object-fit: cover;
+}
+.redesSociales ul li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+    margin: 4px;
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    margin: auto!important;
+}
+.bg-light {
+    background: transparent!important;
+}
+.bg-color1{
+    background: rgb(224, 224, 224);  
+}
+
+.dropdown-menu {
+
+    background-color: rgba( 255,255,255, .0); 
+ 
+    border: transparent!important; 
+    border-radius: .25rem;
+}
+.mensaje{
+   font-size: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer li a{
+    color: white;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+.carrusel{
+    height: 50vh!important;
+    width: 100%;
+}
+a{
+    color: #353c50!important;
+    &:hover {
+        color: #839672!important;
+    }
+}
+
+
+footer a {
+    color: #fff!important;
+    text-decoration: none!important;
+ 
+}
+
+.recuerdo{
+    letter-spacing: 4px;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.logo{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: grabbing
+    } 
+}
+
+/*social network*/
+
+.iconosWidth{
+    width: 30px;
+}
+
+.iconosWidth1{
+    width: 15px;
+    height: 30px;
+}
+.marginTop{
+    margin-top: 50px;
+}
+
+
+.historyBtn{
+
+    color: rgb(0, 0, 0)!important;
+    background: transparent!important;
+    border-radius: 20px;
+    &:hover {
+        background: #8c9e7d!important;
+        border: #8c9e7d 1px solid!important;
+        color: rgb(255, 255, 255)!important;
+  
+    }
+}
+.btn-recuerdos{
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.recuerdo{
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.parrafos{
+    text-align: justify;
+}
+.testimonios{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.album{
+    font-size: 40px;
+}
+
+.socialMedia{
+    float: right;
+    z-index: 900;
+    border-radius: 50px;
+    background: #42d741;
+    position: fixed;
+    top: 200px;
+    padding-right: 20px;
+    padding-left: 30px;
+    right:  -10px;
+    &:hover
+    {
+        padding-right: 35px;
+        padding-left: 45px;
+    }
+}
+.socialW{
+    width: 60px;
+    border-radius: 10px;
+}
+/*Albums*/
+
+.card-title {
+    text-align: center;
+}
+.card {
+    border: transparent!important;
+    margin: 2px;
+    border-radius: .25rem;
+}
+.card-board{
+ color: #333;
+ 
+ &:hover{
+    color: rgb(238, 0, 0);
+    text-decoration: none;
+ }
+}
